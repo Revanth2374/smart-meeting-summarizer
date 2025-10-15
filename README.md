@@ -46,7 +46,7 @@ Built using **Python, Flask, Whisper, Google Gemini API**, and **FFmpeg**, the s
 
 
 
-git clone https://github.com/BilluriPavan1903/Meeting-Summarizer-.git
+git clone https://github.com/Revanth2374/smart-meeting-summarizer
 cd Meeting-Summarizer
 
 
