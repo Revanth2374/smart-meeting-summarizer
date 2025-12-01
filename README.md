@@ -45,26 +45,37 @@ Built using **Python, Flask, Whisper, Google Gemini API**, and **FFmpeg**, the s
 ### 1️⃣ Clone the Repository  
 
 
-
+```
 git clone https://github.com/Revanth2374/smart-meeting-summarizer
 cd Meeting-Summarizer
+```
 
 
 ### python -m venv venv
-venv\Scripts\activate       # For Windows
-source venv/bin/activate    # For macOS/Linux
+
+ For Windows
+```
+venv\Scripts\activate
+```
+For macOS/Linux
+```
+source venv/bin/activate     
+```
 
 ### install the requried packages 
-
+```
 pip install -r requirements.txt
+```
 
-
-# replace with your google api key 
+### replace with your google api key 
+```
 
 GEMINI_API_KEY=your_google_gemini_api_key
-
+```
+Run app
+```
 python app.py
-
+```
 
 🧠 Example Output
 
@@ -82,7 +93,7 @@ Summary: Meeting focused on project delays and timeline adjustments.
 
 ## 📂 Project Structure  
 
-```bash
+```
 audio-summarizer/
 │
 ├── app.py                  # Flask application entry point
@@ -99,7 +110,7 @@ audio-summarizer/
 ├── .env                    # Environment variables (API keys, etc.)
 └── README.md               # Project documentation
 
-
+```
 
 
 
